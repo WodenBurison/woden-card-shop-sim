@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://b4b803pgxnfyl"]
+
+[ext_resource type="Script" uid="uid://yd5kliiiwajd" path="res://scripts/player/player.gd" id="1_gfjak"]
+[ext_resource type="Texture2D" uid="uid://d1l5gmwcodi1x" path="res://assets/placeholder/64x64 Walk-Sheet.png" id="1_wr5hl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j23qv"]
+atlas = ExtResource("1_wr5hl")
+region = Rect2(192, 0, 102.66669, 109.33298)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_j23qv"]
+radius = 36.345562
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1426043018]
+script = ExtResource("1_gfjak")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1827911949]
+texture = SubResource("AtlasTexture_j23qv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=61872168]
+position = Vector2(-2, 11)
+shape = SubResource("CircleShape2D_j23qv")
