@@ -13,6 +13,11 @@ config_version=5
 config/name="woden-card-shop-sim"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
+[autoload]
+
+ItemDatabase="*uid://c7qky7rnibtyb"
+GameState="*uid://dyt2d8pmhrdlx"
+
 [display]
 
 window/stretch/mode="canvas_items"
