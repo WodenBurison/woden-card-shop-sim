@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" format=3 uid="uid://veexeytomcxe"]
+
+[ext_resource type="Script" uid="uid://b1wbcsxtinpdo" path="res://scripts/items/card.gd" id="1_7hon3"]
+[ext_resource type="Texture2D" uid="uid://wywtarptq63y" path="res://assets/placeholder/card.webp" id="1_s5wex"]
+
+[resource]
+script = ExtResource("1_7hon3")
+game = "test_set"
+rarity = "common"
+card_type = "monster"
+condition = "mint"
+item_name = "test_card"
+price = 5
+texture = ExtResource("1_s5wex")
+detail_texture = ExtResource("1_s5wex")
+item_id = "test_card"
+unlock_level = 0
+metadata/_custom_type_script = "uid://b1wbcsxtinpdo"
