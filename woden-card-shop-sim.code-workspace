@@ -3,5 +3,8 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"godotTools.editorPath.godot4": "/home/woden/Claude/Projects/Godot/Godot_v4.7.2-stable_linux.x86_64"
+	}
 }
